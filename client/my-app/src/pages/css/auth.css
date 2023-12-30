@@ -1,0 +1,34 @@
+.auth{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin-top: 80px;
+}
+
+
+.form-type{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    background: linear-gradient(180deg, rgb(82, 166, 255), rgb(206, 231, 255));
+    gap: 20px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+h2{
+    margin-top: 20px;
+    color: white;
+}
+.form-type > button {
+    border: none;
+    background: rgb(17, 121, 240);
+    width: 200px;
+    height: 38px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
